@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Please enter the amount", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                     new JsonTask().execute("https://api.fastforex.io/convert?from=" + from + "&to=" + to + "&amount=" + amount + "&api_key=aa218d96df-4905672943-rpeuwr");
+                     new JsonTask().execute("https://api.fastforex.io/convert?from=" + from + "&to=" + to + "&amount=" + amount + "&api_key=API_KEY");
                 }
             }
         });
